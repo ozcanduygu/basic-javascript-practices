@@ -1,7 +1,7 @@
 const functions = require("./index.js");
 
 const bolunenler = [
-  48,
+  48,//deneme12
   45,
   63,
   54,
