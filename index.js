@@ -1,5 +1,5 @@
 const sayilar = require("./sayilar.js");
-const pi = 3.14159; //deneme
+const pi = 3.14159; 
 /* Üstteki satırlarda global olarak tanımlanmış değişkenler bulunmaktadır, bunları silmeyin. Alttaki açıklamaları takip ederek görevleri tamamlayın. */
 
 /* ÖRNEK GÖREV: kareninAlani fonksiyonunu kullanarak aşağıdakileri uygulayın:
