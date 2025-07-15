@@ -1,5 +1,5 @@
 const sayilar = require("./sayilar.js");
-const pi = 3.14159;
+const pi = 3.14159; //deneme
 /* Üstteki satırlarda global olarak tanımlanmış değişkenler bulunmaktadır, bunları silmeyin. Alttaki açıklamaları takip ederek görevleri tamamlayın. */
 
 /* ÖRNEK GÖREV: kareninAlani fonksiyonunu kullanarak aşağıdakileri uygulayın:
@@ -10,7 +10,7 @@ const pi = 3.14159;
 
 // Örneğin çözümü:
 function kareninAlani(kenaruzunlugu) {
-  return kenaruzunlugu * kenaruzunlugu;
+	return kenaruzunlugu * kenaruzunlugu;
 }
 
 /* (Oto test yok) Yukarıdaki kareninAlani fonksiyonunu kenar uzunluğu = 10 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -24,7 +24,7 @@ function kareninAlani(kenaruzunlugu) {
 */
 
 function cemberinCevresi(/* kodlar buraya */) {
-  /* kodlar buraya */
+	/* kodlar buraya */
 }
 
 /* (Oto test yok) Yukarıdaki cemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -38,7 +38,7 @@ function cemberinCevresi(/* kodlar buraya */) {
 */
 
 function cemberinAlani(/* kodlar buraya */) {
-  /* kodlar buraya */
+	/* kodlar buraya */
 }
 
 /* (Oto test yok) Yukarıdaki cemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -63,12 +63,12 @@ function cemberinAlani(/* kodlar buraya */) {
 /* (oto test yok) sayilar dizisi içinde kaç adet sayı olduğunu konsola yazdırın */
 
 let ucetambolunenler,
-  enkucuk,
-  enbuyuk,
-  ucebolunenlerintoplami,
-  besyuzdenkucuksayilar,
-  siralisayilar,
-  tekraredensayilar;
+	enkucuk,
+	enbuyuk,
+	ucebolunenlerintoplami,
+	besyuzdenkucuksayilar,
+	siralisayilar,
+	tekraredensayilar;
 
 // 3a çözümü
 
@@ -96,13 +96,13 @@ let ucetambolunenler,
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 module.exports = {
-  cemberinCevresi,
-  cemberinAlani,
-  ucetambolunenler,
-  enbuyuk,
-  enkucuk,
-  ucebolunenlerintoplami,
-  besyuzdenkucuksayilar,
-  siralisayilar,
-  tekraredensayilar,
+	cemberinCevresi,
+	cemberinAlani,
+	ucetambolunenler,
+	enbuyuk,
+	enkucuk,
+	ucebolunenlerintoplami,
+	besyuzdenkucuksayilar,
+	siralisayilar,
+	tekraredensayilar,
 };
